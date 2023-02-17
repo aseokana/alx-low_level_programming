@@ -15,9 +15,8 @@ int main(void)
 		{
 			if (num < num1)
 			{
-                        	putchar((num % 10) + '0');
-                        	putchar((num1 % 10) + '0');
-
+				putchar((num % 10) + '0');
+				putchar((num1 % 10) + '0');
 				if ((num % 10) + '0' != '8' || ((num % 10) + '0' == '8' && (num1 % 10) + '0' != '9'))
 				{
 					putchar(',');
