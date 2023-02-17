@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Description: prints the alphabets
+ * Description: prints the alphabets without e an q
  * Return: 0
  */
 int main(void)
