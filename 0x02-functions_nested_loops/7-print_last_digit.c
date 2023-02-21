@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _abs - Entry point
+ * print_last_digit - Entry point
  * Description: prints the last digit of a number.
  * @n: The input to be checked.
  * Return: int
