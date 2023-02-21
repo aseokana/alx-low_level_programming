@@ -4,7 +4,9 @@
  * print_sign - Entry point
  * Description: prints the sign of the input
  * @n: The input to be checked.
- * Return: 1 if input is an alphabet, 0 otherwise.
+ * Return: 1 if input is greater than 0,
+ *  0 if input is 0,
+ *  -1 otherwise.
  */
 
 int print_sign(int n)
