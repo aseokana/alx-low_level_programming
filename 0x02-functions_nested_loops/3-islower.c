@@ -3,7 +3,8 @@
 /**
  * _islower - Entry point
  * Description: check if input is lowercase
- * Return: void
+ * @c: The input to be checked.
+ * Return: 1 if character is lowercase, 0 otherwise.
  */
 
 int _islower(int c)
@@ -14,8 +15,8 @@ int _islower(int c)
 	{
 		if (c == abc)
 		{
-			return(1);
+			return (1);
 		}
 	}
-	return(0);
+	return (0);
 }
