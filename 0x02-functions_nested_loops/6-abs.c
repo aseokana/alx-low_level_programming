@@ -3,6 +3,7 @@
 /**
  * _abs - Entry point
  * Description: computes the absolute value of an integer.
+ * @n: The input to be checked.
  * Return: int
  */
 
