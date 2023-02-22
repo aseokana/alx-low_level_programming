@@ -16,12 +16,12 @@ void print_times_table(int n)
 		for (base = 0; base <= n; base++)
 		{
 			_putchar('0');
-			
+
 			for (num = 1; num <= n; num++)
 			{
 				_putchar(',');
 				_putchar(' ');
-				
+
 				d = base * num;
 				if (d <= 9)
 				{
