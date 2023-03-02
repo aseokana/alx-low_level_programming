@@ -2,6 +2,9 @@
 /**
  * *_strncat - Entry point
  * Description: concatenates two strings
+ * @dest: the destination string
+ * @src: the source string
+ * @n: the number of bytes from src
  * Return: pointer to the resulting string dest
  */
 char *_strncat(char *dest, char *src, int n)
@@ -18,6 +21,6 @@ char *_strncat(char *dest, char *src, int n)
 		dest[dest_len++] = src[index];
 	}
 
-	return(dest);
+	return (dest);
 }
 
