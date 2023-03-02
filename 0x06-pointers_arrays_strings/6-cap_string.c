@@ -2,6 +2,7 @@
 /**
  * *cap_string - Entry point
  * Description: capitalizes all words of a string
+ * @str: the string
  * Return: str
  */
 char *cap_string(char *str)
@@ -14,7 +15,7 @@ char *cap_string(char *str)
 		{
 			index++;
 		}
-		
+
 		if (str[index - 1] == ' ' ||
 				str[index - 1] == '\t' ||
 				str[index - 1] == '\n' ||
