@@ -6,7 +6,8 @@
  * of a square matrix of integers.
  * @a: the matrix
  * @size: the size of the matrix
- * Return: prints the chessboard
+ * Return: prints the sum of the two diagonals of a
+ * square matrix of integers
  */
 
 void print_diagsums(int *a, int size)
